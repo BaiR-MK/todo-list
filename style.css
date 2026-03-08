@@ -74,3 +74,26 @@ li span {
     text-align: left;
     word-break: break-word;
 }
+
+@media (max-width: 600px) {
+    #newTaskInput {
+        width: 80%;
+    }
+    
+    li {
+        width: 95%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+li span {
+    flex-grow: 1;
+    text-align: left;
+    word-break: break-word;
+}
